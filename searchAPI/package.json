@@ -1,0 +1,14 @@
+{
+  "name": "searchapi",
+  "version": "1.0.0",
+  "description": "a module to interact with twitter api to search for tweets",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ryan Sean Lee",
+  "license": "ISC",
+  "dependencies": {
+    "superagent": "^7.1.1"
+  }
+}

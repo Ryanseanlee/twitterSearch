@@ -1,0 +1,22 @@
+{
+  "name": "twittersearch-server",
+  "version": "1.0.0",
+  "description": "an express server app to interact with the twitter API",
+  "main": "server.js",
+  "scripts": {
+    "windows": ".\\node_modules\\.bin\\nodemon server.js",
+    "start": "nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ryan Sean Lee",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.1",
+    "mongodb": "^4.6.0",
+    "searchapi": "file:../searchAPI"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.16"
+  }
+}
